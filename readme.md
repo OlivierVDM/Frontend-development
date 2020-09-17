@@ -38,15 +38,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond het positioneren lastig. Het begin lukt allemaal wel maar als je dan de kleine dingetjes moet gaan doen word het best wel ingewikkeld. Ik vond flexbox best wel goed gaan, ik heb het in mijn nav gebruikt en dat lukte vrijwel meteen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+(images/Schermafbeelding week 1)
+
+(images/Schermafbeelding week 3)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-Per persoon reflectie van afgelopen weken
+-Vragen over HTML, CSS, JS
+-Algemene vragen
+-Plan van aanpak voor voortgan
 
 ### Verslag van meeting
 
