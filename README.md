@@ -42,7 +42,7 @@ Ik vond het positioneren lastig. Het begin lukt allemaal wel maar als je dan de 
 
 **Screenshot(s):**
 
-(images/Schermafbeelding week 1) ![](images-Schermafbeelding)
+![](images/Schermafbeelding week 1)
 
 (images/Schermafbeelding week 3)
 
