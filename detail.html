@@ -6,7 +6,7 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Apple homepage</title>
+	<title>Apple detail pagina</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
 </head>
@@ -14,7 +14,11 @@
 <body>
     <script src="scripts/script.js"></script>
     <header>
-       <img src="images/logo-bovenaan.jpg" alt="apple logo"> 
+       <nav>
+        <a href=""><img src="images/hamburger-menu.png" alt="hamburger menu"></a> 
+        <a href=""><img src="images/logo-bovenaan.png" alt="apple logo"></a> 
+        <a href=""><img src="images/mandje.png" alt="winkelwagentje"></a>  
+      </nav> 
        <section>
                 <a href="">
 	            Iphone SE
@@ -27,98 +31,304 @@
        </section>
     </header>
 	<main>
-	    <section id="introdetail" >
-	        <h1 id="h1detail">
-                Koop iphone SE
+	    <section id="iphone-se-deatil">
+	        <h1 id="h1-detail">
+                Koop Iphone SE 
             </h1>
-            <h2 id="h2detail">
-                Krijg tot €155 korting bij inruil**
+            <h2 id="h2-detail">
+                Krijg tot € 155 korting bij inruil**
             </h2>
-            <a href="" id="adetail" >Lees hier hou Apple trade in werkt </a>
-               <img id="imgdetail" src="images/iphone-se-detail.jpg" alt="iphone se" > 
+            <a href="" id="a-detail">Lees hier hoe Apple Trade In werkt</a>        
+	        <img src="images/iphone-se-detail.jpg" alt="iphone se" style="background-image: ">
 	    </section>
+       
+        <fieldset>
+          <legend>
+              <h2>Kies de uitvoering.</h2>
+          </legend>
+          
+         <div>
+            <input type="radio" id="" name="wit">
+          <label for="fname">
+              <img src="images/wit.png" alt="kleur wit">
+              wit
+          </label>
+          
+          <input type="radio" id="" name="zwart">
+          <label for="fname">
+              <img src="images/zwart.png" alt="kleur wit">
+              zwart
+          </label>
+          
+          <input type="radio" id="" name="rood">
+          <label for="fname">
+              <img src="images/rood.png" alt="kleur wit">
+              rood
+          </label>
+      
+         </div>
+
+          
+        </fieldset>
         
     
 	</main>
 	<footer>
 	    <ul>
 	        <li id="Footnote1">
-	            1. Apple Trade In-programma: de inruilwaarde is aan verandering onderhevig. De weergegeven prijzen van iPhone 11 en iPhone 11 Pro gelden bij inruil van een 64‑GB iPhone 8 Plus of een 64‑GB iPhone X in goede staat. De prijs van iPhone SE geldt bij inruil van een iPhone 8 met 64 GB in goede staat. Andere inruilwaarden gelden alleen bij aankoop van een nieuwe iPhone (afhankelijk van verkrijgbaarheid en onderworpen aan bepaalde beperkingen). De inruilwaarde is afhankelijk van de staat, het jaar en de configuratie van het device dat je inruilt. Je moet minimaal 18 jaar zijn. Mogelijk gelden er aanvullende voorwaarden vanuit Apple of de inruilpartner van ;Apple.
+	            1. Apple Trade In-programma: de inruilwaarde is aan verandering onderhevig. De weergegeven prijzen van iPhone 11 en iPhone 11 Pro gelden bij inruil van een 64‑GB iPhone 8 Plus of een 64‑GB iPhone X in goede staat. De prijs van iPhone SE geldt bij inruil van een iPhone 8 met 64 GB in goede staat. Andere inruilwaarden gelden alleen bij aankoop van een nieuwe iPhone (afhankelijk van verkrijgbaarheid en onderworpen aan bepaalde beperkingen). De inruilwaarde is afhankelijk van de staat, het jaar en de configuratie van het device dat je inruilt. Je moet minimaal 18 jaar zijn. Mogelijk gelden er aanvullende voorwaarden vanuit Apple of de inruilpartner van Apple.
 	        </li>
+	        <br>
 	        <li id="Footnote2">
-	            2. €4,99/maand na afloop van gratis proefperiode. Geen verplichtingen. Na afloop van de proefperiode wordt het abonnement automatisch verlengd totdat het wordt opgezegd.
+	            2. € 4,99/maand na afloop van gratis proefperiode. Eén abonnement per ‘Delen met gezin’-groep. Aanbod geldig tot 3 maanden na activering van een in aanmerking komend device. Na afloop van de proefperiode wordt het abonnement automatisch verlengd totdat het wordt opgezegd. Er zijn beperkingen en andere voorwaarden van toepassing.
 	        </li>
+	        <br>
 	        <li id="Footnote3">
-	            3. €4,99/maand na afloop van gratis proefperiode. Eén abonnement per ‘Delen met gezin’-groep. Aanbod geldig tot 3 maanden na activering van een in aanmerking komend device. Na afloop van de proefperiode wordt het abonnement automatisch verlengd totdat het wordt opgezegd. Er zijn beperkingen en andere 
+	            Magic Keyboard afzonderlijk verkrijgbaar.
 	        </li> 
 	    </ul>
 	    <nav>
-            <div>
-              <a href="">
-	            Bestellen en informatie
-	          </a>  
-            </div>
-	        <div>
-	           <a href="">
-	            services
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Account
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Apple store
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Voor bedrijven
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Voor het onderwijs
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Voor de gezondheidszorg
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Waarde van Apple
-	           </a>
-	        </div>
-	        <div>
-	           <a href="">
-	            Over Apple
-	           </a>
-	        </div>
+            <button type="button" class="collapsible">Bestellen en informatie</button>
+            <ul class="content">
+                 <li>
+                    <a href="">Mac </a> 
+                 </li>
+                 <br>
+                 <li>
+                   <a href="">Ipad </a>  
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Iphone </a> 
+                 </li>
+                 <br> 
+                 <li>
+                     <a href="">Watch </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Tv </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Music </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Airpods </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Ipod touch </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Accessoires </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Cadeaubonnen </a> 
+                 </li>
+             </ul> 
+             
+            <button type="button" class="collapsible">Services</button>
+            <ul class="content">
+                <li>
+                    <a href="">Apple Music </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple TV+ </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple Arcade </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">icloud </a>  
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple One </a>  
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple Pay </a>  
+                </li>
+            </ul>  
+            
+	        <button type="button" class="collapsible">Account</button>
+            <ul class="content">
+                <li>
+                    <a href="">Je Apple ID beheren </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple Store-account </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Icloud.com </a>
+                </li>
+            </ul>
+            
+            <button type="button" class="collapsible">Apple store</button>
+            <ul class="content">
+                 <li>
+                    <a href="">Zoek een Store </a> 
+                 </li>
+                 <br>
+                 <li>
+                   <a href="">Shop online </a>  
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Genius Bar </a> 
+                 </li>
+                 <br> 
+                 <li>
+                     <a href="">Watch </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Today at Apple </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Apple Zomerkamp </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Excursie </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Apple Store-app </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Refurbished </a>
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Apple Trade In </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Bestelstatus </a> 
+                 </li>
+                 <br>
+                 <li>
+                    <a href="">Hulp bij bestellen </a> 
+                 </li>
+             </ul> 
+             
+             <button type="button" class="collapsible">Voor bedrijven</button>
+            <ul class="content">
+                <li>
+                    <a href="">Apple en het bedrijfsleven </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Aankopen voor je bedrijf </a>
+                </li>
+            </ul>
+            
+            <button type="button" class="collapsible">Voor het onderwijs</button>
+            <ul class="content">
+                <li>
+                    <a href="">Apple en het onderwijs </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Aankopen voor je studie </a>
+                </li>
+            </ul>
+	        <button type="button" class="collapsible">Voor de gezondheidszorg</button>
+            <ul class="content">
+                <li>
+                    <a href="">Apple in de gezondheidszorg </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Gezondheid op Apple Watch </a>
+                </li>
+            </ul>
+            <button type="button" class="collapsible">Waarden van Apple</button>
+            <ul class="content">
+                <li>
+                    <a href="">Toegankelijkheid </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Milieu </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Privacy </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Verantwoordelijkheid van toeleveranciers </a>
+                </li>
+            </ul>  
+            <button type="button" class="collapsible">Over Apple</button>
+            <ul class="content">
+                <li>
+                    <a href="">Newsroom </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Apple Leadership </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Vacatures </a>
+                </li>
+                <br>
+                 <li>
+                    <a href="">Garantie </a> 
+                </li>
+                <br>
+                <li>
+                    <a href="">Investeerders </a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Events</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Werkgelegenheid in Europa</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">Contact Opnemen</a>
+                </li>
+            </ul>  
+               
 	    </nav>
 	    <section>
-	        <div>
-	            <p>
-	                Andere manieren om te shoppen: Zoek een Apple store andere winkel bij jou in de buurt. Of bel 0800 0200 570.
-	            </p>
-	        </div>
-	        <div>
-	        Copyright ©
+	        
+	        <p>
+	           Andere manieren om te shoppen: <a href="">Zoek een Apple store</a> of <a href="">andere winkel</a> bij jou in de buurt. Of bel 0800 0200 570.
+	        </p>
+	        
+	        <br>
+            <p>
+               Copyright ©
 			    
-			2020
-			Apple Inc. Alle rechten voorbehouden.
-            </div>
-	        <div>
-	            <a href="">Privacybeleid</a>
-	            <a href="">Gebruik van cookies</a>
-	            <a href="">Gebruikersvoorwaarden</a>
-	            <a href="">Verkoopvoorwaarden</a>
-	            <a href="">Juridische informatie</a>
-	            <a href="">Site-overzicht</a>
-	        </div>
+			    2020
+			    Apple Inc. Alle rechten voorbehouden. 
+            </p>
+            <br>
+	        <a href="">Privacybeleid</a>
+	        <a href="">Gebruik van cookies</a>
+	        <a href="">Gebruikersvoorwaarden</a>
+	        <a href="">Verkoopvoorwaarden</a>
+	        <a href="">Juridische informatie</a>
+	        <a href="">Site-overzicht</a>
 	    </section>
 	</footer>
 </body>
