@@ -291,6 +291,7 @@ footer section a{
 /*detail pagina*/
 
 
+
 /*section 1*/
 #iphone-se-deatil{
     position: relative;
@@ -339,14 +340,25 @@ footer section a{
 
 main fieldset{
     border: none;
+    margin-top: 1em;
     
+}
+
+main fieldset legend h3{
+    font-size: 17px;
+    padding: 1em 0 1em 1.21em;
+    font-weight: 450;
 }
 
 main fieldset div{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    flex-grow: 2;
+    padding: 0;
+    margin: 0 .8em;
+    border-bottom: 1px solid #d2d2d7;  
+    padding-bottom: .8em;
+    
 }
 
 main fieldset input{
@@ -355,21 +367,168 @@ main fieldset input{
 
 main fieldset label{
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
-    border: 2px solid #0070c9;
+    border: 1px solid #d6d6d6;
     align-items: center;
-    padding: 10px 14px;
+    padding: 25px 14px;
     border-radius: 4px;
-    height: 6.23529rem;
-    width: 10rem;
+    height: 6.23529em;
+    width: 10em;
+    margin: .41em;
+    
+}
+
+main fieldset label p{
+
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
 }
 
 main fieldset label img{
-    height: 32px;
-    width: 32px;
+    margin-bottom: .5em;
 }
 
 
+main fieldset label p span{
+    font-size: 29px;
+    font-weight: 400;
+}
+
+main fieldset label p span small{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+Als geselecteerd{
+    border: 2px solid #0070c9;
+    padding: 10px 14px;
+}
+
+main fieldset label img{
+    width: 32px;
+}
+
+/*applecare fieldset*/
+
+
+main fieldset p{
+   letter-spacing: -.022em;
+    color: #333333;
+    font-size: 12px; 
+    text-align: center;
+}
+
+#applecare{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    margin: .8em .8em;
+    border-bottom: 1px solid #d2d2d7;  
+    padding-bottom: .8em;
+}
+
+main fieldset div button{
+    margin: .8em .0;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+}
+
+main fieldset div button label{
+    width: 100%;
+    border: none;
+    height: inherit;
+    margin: 0;
+}
+
+main fieldset div button label p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+
+main fieldset div button label h2 span{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+
+main fieldset div button label h2 {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-bottom: 1px solid #d2d2d7; 
+    padding-bottom: .5em;
+    margin-bottom: .8em;
+}
+
+main fieldset div button label ul{
+    letter-spacing: -.022em;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+    width: 86%;
+}
+
+main fieldset div button label ul li{
+    line-height: 1.6;
+}
     
-      
+ /*bestel fieldset*/ 
+
+#bestel-fieldset{
+    background-color: #fafafa;
+}
+
+main fieldset h1{
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 2em;
+    padding-top: .8em;
+}
+
+
+#bestel-fieldset p{
+    font-size: 14px;
+    color: #888888;
+    text-align: left;
+    padding-left: 3.2em;
+    padding-top: .8em;
+    
+}
+
+#bestel-fieldset button{
+    display: block;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 2em;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 100;
+    letter-spacing: -.022em;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    border: 1px;
+}
+
+main fieldset section img{
+    width: inherit;
+}
+
+main fieldset a{
+    position: inherit;
+
+}
+
+
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+}

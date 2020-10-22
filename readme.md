@@ -26,7 +26,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Ik vond het positioneren lastig. Het begin lukt allemaal wel maar als je dan de kleine dingetjes moet gaan doen word het best wel ingewikkeld. Ik vond flexbox best wel goed gaan, ik heb het in mijn nav gebruikt en dat lukte vrijwel meteen.
+Ik ben al een stuk verder dan vorige week. Mijn homepage is bijna af. Ik ben al een stuk opweg met mijn detail pagina, ik merk wel dat deze een stuk moeilijker is. Ik moet me nog gaan focussen op de survise plane. Ik moet nog veel doen en nog veel uitzoeken, hopelijk komt het goed en heb ik alles optijd af.
 
 **Screenshot(s):**
 
