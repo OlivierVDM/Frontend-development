@@ -424,7 +424,7 @@ main fieldset p{
     flex-flow: column;
     padding: 0;
     margin: .8em .8em;
-    border-bottom: 1px solid #d2d2d7;  
+    border-bottom: none;
     padding-bottom: .8em;
 }
 
@@ -474,6 +474,10 @@ main fieldset div button label ul{
 
 main fieldset div button label ul li{
     line-height: 1.6;
+    display: block;
+    margin: inherit;
+        display: list-item;
+    list-style-type: disc;
 }
     
  /*bestel fieldset*/ 
@@ -484,7 +488,7 @@ main fieldset div button label ul li{
 
 main fieldset h1{
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 2em;
     padding-top: .8em;
 }
@@ -501,25 +505,27 @@ main fieldset h1{
 
 #bestel-fieldset button{
     display: block;
-    margin-top: 1.5em;
+    margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     height: 2em;
     font-size: 17px;
     line-height: 1.47059;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: -.022em;
     background-color: #0070c9;
     background: linear-gradient(#42a1ec,#0070c9);
     border-radius: 4px;
     color: #fff;
     text-align: center;
-    border: 1px;
+    border: 1px; 
+    
+    
 }
 
 main fieldset section img{
-    width: inherit;
+    width: 1.3em;
 }
 
 main fieldset a{
@@ -527,8 +533,45 @@ main fieldset a{
 
 }
 
+main fieldset div section h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+}
+
+main fieldset div section a{
+    font-size: 12px;
+}
+
+#bestel-fieldset div section p{
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 0;
+    color: #333333;
+}
+
 
 #grid-container{
     display: grid;
     grid-template-columns: repeat(2,40%);
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+main ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5em 0 2.5em 0;
+}
+
+main ul li img{
+    width: 1.6em;
+    padding-bottom: .8em;
+}
+
+main ul li h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
 }
