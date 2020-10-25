@@ -19,14 +19,14 @@
             <a href=""><img src="images/logo-bovenaan.png" alt="apple logo"></a>
             <a href=""><img src="images/mandje.png" alt="winkelwagentje"></a>
         </nav>
-        <section>
-            <a href="">
+        <section id="bovenbalk" >
+            <h2>
                 Iphone SE
-            </a>
+            </h2>
 
-            <a href="">
-                Vanaf €489
-            </a>
+            <p>
+               €489
+            </p>
 
         </section>
     </header>
@@ -39,7 +39,7 @@
                 Krijg tot € 155 korting bij inruil**
             </h2>
             <a href="" id="a-detail">Lees hier hoe Apple Trade In werkt</a>
-            <img src="images/iphone-se-detail.jpg" alt="iphone se" style="background-image: ">
+            <img src="images/iphone-se-detail.jpg" alt="iphone se" style="background-image: " id="afbeelding-iphone">
         </section>
         <form action="">
             <fieldset>
@@ -47,25 +47,25 @@
                     <h3>Kies de uitvoering.</h3>
                 </legend>
                 <div>
-                    <input type="radio" id="" name="wit">
-                    <label for="fname">
+                    <input type="radio" id="wit" name="wit" checked="checked" >
+                    <label for="wit">
                         <img src="images/wit.png" alt="kleur wit">
                         <p>
                             wit
                         </p>
                     </label>
 
-                    <input type="radio" id="" name="zwart">
-                    <label for="fname">
-                        <img src="images/zwart.png" alt="kleur wit">
+                    <input type="radio" id="zwart" name="wit" >
+                    <label for="zwart">
+                        <img src="images/zwart.png" alt="kleur zwart">
                         <p>
                             zwart
                         </p>
                     </label>
 
-                    <input type="radio" id="" name="rood">
-                    <label for="fname">
-                        <img src="images/rood.png" alt="kleur wit">
+                    <input type="radio" id="rood" name="wit">
+                    <label for="rood">
+                        <img src="images/rood.png" alt="kleur rood">
                         <p>
                             (PRODUCT)RED
                         </p>
@@ -77,8 +77,8 @@
                     <h3>Kies de capaciteit.</h3>
                 </legend>
                 <div>
-                    <input type="radio" id="" name="wit">
-                    <label for="fname">
+                    <input type="radio" id="a" name="rood"  value="a" checked onchange="updatePrijs() ">
+                    <label for="a">
                         <p>
                             <span>64 <small>GB***</small></span>
                             <br>
@@ -86,8 +86,8 @@
                         </p>
                     </label>
 
-                    <input type="radio" id="" name="zwart">
-                    <label for="fname">
+                    <input type="radio" id="b" name="rood" value="b" onchange="updatePrijs() ">
+                    <label for="b" >
                         <p>
                             <span>128 <small>GB***</small></span>
                             <br>
@@ -95,8 +95,8 @@
                         </p>
                     </label>
 
-                    <input type="radio" id="" name="rood">
-                    <label for="fname">
+                    <input type="radio" id="c" name="rood" value="c" onchange="updatePrijs() ">
+                    <label for="c">
                         <p>
                             <span>256 <small>GB***</small></span>
                             <br>
@@ -110,16 +110,16 @@
                     <h3>Heb je een iPhone die je wilt inruilen?</h3>
                 </legend>
                 <div>
-                    <input type="radio" id="" name="wit">
-                    <label for="fname">
+                    <input type="radio" id="nee" name="zwart" checked="checked">
+                    <label for="nee">
                         <p>
                             <span><small>Nee</small></span>
 
                         </p>
                     </label>
 
-                    <input type="radio" id="" name="zwart">
-                    <label for="fname">
+                    <input type="radio" id="ja" name="zwart">
+                    <label for="ja">
                         <p>
                             <span><small>Ja</small></span>
                             <br>
@@ -133,44 +133,50 @@
                 </legend>
                 <p>Aanvullende hardware- en softwaredekking en voorrang op ondersteuning door de mensen die iPhone het beste kennen.</p>
                 <div id="applecare">
-                    <input type="radio" id="" name="wit">
-                    <button>
-                        <label for="fname">
+                   
+                    
+                    <div>
+                       <input type="radio" id="applecareU" name="geel" checked="checked" onchange="updatePrijs() ">
+                        <label for="applecareU">
                             <p>
                                 Geen AppleCare+-dekking
                             </p>
                         </label>
-                    </button>
+                    </div>
+                    
+                    
+                    
+                    <div>
+                       <input type="radio" id="applecareA" name="geel" onchange="updatePrijs() ">
+                       <label for="applecareA" >
+                        <h2>
+                            <span>
+                                AppleCare+
+                            </span>
 
-                    <input type="radio" id="" name="zwart">
-                    <button>
-                        <label for="fname">
-                            <h2>
-                                <span>
-                                   AppleCare+ 
-                                </span>
-                                
-                                    €99,00
-                                
-                            </h2>
-                            <ul>
-                                <li>
-                                    Voorrang bij contact met Apple deskundigen
-                                </li>
-                                <li>
-                                    Door Apple gecertificeerde reparaties met uitsluitend originele Apple onderdelen
-                                </li>
-                                <li>
-                                    Dekking voor iPhone, inclusief de batterij
-                                </li>
-                            </ul>
-                        </label>
-                    </button>
-                </div>
+                            €99,00
+
+                        </h2>
+                        <ul>
+                            <li>
+                                Voorrang bij contact met Apple deskundigen
+                            </li>
+                            <li>
+                                Door Apple gecertificeerde reparaties met uitsluitend originele Apple onderdelen
+                            </li>
+                            <li>
+                                Dekking voor iPhone, inclusief de batterij
+                            </li>
+                        </ul>
+                    </label> 
+                    </div>
+                    
+
+                    </div>
             </fieldset>
             <fieldset id="bestel-fieldset" >
               
-               <h1>€ 489,00</h1>
+               <h1 id="prijs">€ 489,00</h1>
                <p>Inclusief btw en wettelijke heffingen t.w.v. ca.<br> € 90,00.* </p>
                 <button type="submit" class="registerbtn">In winkelmandje</button>
                 <div id="grid-container">
@@ -460,7 +466,8 @@
             <a href="">Site-overzicht</a>
         </section>
     </footer>
-    <script src="scripts/script.js" charset="utf-8"></script>
+    <script src="scripts/script.js" charset="utf-8">
+    </script>
 </body>
 
 </html>
