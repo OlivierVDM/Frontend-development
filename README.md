@@ -3,7 +3,7 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-link website:
+link website: https://oliviervdm.github.io/Frontend-development/detail.html
 
 ## Bronnenlijst
 1. -https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_animate-
