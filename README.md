@@ -99,4 +99,7 @@ Ik vond het positioneren lastig. Het begin lukt allemaal wel maar als je dan de 
 
 **Breakdown-schets(en):**
 
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+
 (images/apple-breakdown)
