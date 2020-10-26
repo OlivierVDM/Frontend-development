@@ -16,7 +16,20 @@ var btn2 = document.querySelector('#zwart');
 var btn3 = document.querySelector('#rood');
 
 
+//bovenbalk sticky
 
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("bovenbalk");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 
 
 
@@ -40,7 +53,7 @@ window.onload = function () {
     
 
 
-//prijs iphone
+//prijskeuze
 document.getElementById("a").onchange = function() {updatePrijs()};
 document.getElementById("b").onchange = function() {updatePrijs()};
 document.getElementById("c").onchange = function() {updatePrijs()};  
@@ -92,7 +105,9 @@ var prijsOptie2 = 0;
         
         
 var totaalPrijs = basisPrijs + prijsOptie + prijsOptie2;
-document.getElementById('prijs').innerHTML = "€ " + totaalPrijs;
+document.getElementById('prijs' ).innerHTML = "€ " + totaalPrijs;
+    
+document.getElementById('tekstvak2' ).innerHTML = "€ " + totaalPrijs;    
 
 }
 

@@ -296,24 +296,25 @@ footer section a{
     display: flex;
     justify-content: space-between;
     padding: .8em 0 .8em 0;
-    margin: 0 .8em 0 .8em;
+    margin: 0 1em 0 1em;
     border-bottom: 1px solid #d2d2d7; 
     z-index: 100;
 }
 
 #bovenbalk h2{
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #bovenbalk p{
-   font-size: 14px; 
+   font-size: 16px; 
 }
 
-#sticky {
+.sticky {
   position: fixed;
   top: 0;
-  width: 94%;
+  width: 91%;
+  background: rgba(255, 255, 255, 0.75);
   justify-content: space-between;
   padding: .8em 0 .8em 0;
   margin: 0 .8em 0 .8em;
